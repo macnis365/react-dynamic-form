@@ -55,7 +55,7 @@ class App extends Component {
     return (
       <div className="App">
         <DynamicForm className="form"
-          title = "Registration"
+          title = "Rule Engine Dashboard"
           defaultValues = {this.state.current}
           model={
             [
@@ -82,12 +82,12 @@ class App extends Component {
                      {
                         key:"B",
                         label:"Bilateral",
-                        value:"B"
+                        value:"Bilateral"
                      },
                      {
                         key:"S",
                         label:"Syndicate Agent",
-                        value:"S"
+                        value:"Syndicate Agent"
                      }
                   ]
                },
@@ -99,12 +99,12 @@ class App extends Component {
                      {
                         key:"1",
                         label:"Borrower Resident",
-                        value:"1"
+                        value:"Borrower Resident"
                      },
                      {
                         key:"2",
                         label:"Borrower Non Resident",
-                        value:"2"
+                        value:"Borrower Non Resident"
                      }
                   ]
                }

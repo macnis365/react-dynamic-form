@@ -39,7 +39,7 @@ class App extends Component {
   render() {
     let data = this.state.data.map((d) => {
       return (
-        <tr key={d.id}>
+       /* <tr key={d.id}>
             <td>{d.name}</td>
             <td>{d.age}</td>
             <td>{d.qualification}</td>
@@ -48,7 +48,8 @@ class App extends Component {
             <td>{d.city}</td>
             <td>{d.skills.join(",")}</td>
             <td><button onClick={()=>{this.onEdit(d.id)}}>edit</button></td>
-        </tr>
+        </tr>*/
+        <tr></tr>
       );
     });
     
